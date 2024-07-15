@@ -1,0 +1,66 @@
+#hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('../../../public/assets/images/hero-bg.jpg') top no-repeat;
+    background-size: cover;
+}
+
+#hero:before {
+    position: absolute;
+    content: '';
+    background: rgba(255, 255, 255, 0.8);
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#hero h1 {
+    position: relative;
+    margin: 0;
+    font-size: 6rem;
+    font-weight: 800;
+    line-height: 56px;
+    /* Adjust line height as needed */
+    color: #45505b !important;
+    /* Ensure high specificity */
+}
+
+#hero p {
+    position: relative;
+    color: #45505b;
+    margin: 15px 0 0 0;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+#hero p span {
+    position: relative;
+    color: #0563bb;
+    letter-spacing: 1px;
+}
+
+#hero .social-links {
+    margin-top: 30px;
+}
+
+#hero .social-links a {
+    position : relative;
+    font-size: 2rem;
+    display: inline-block;
+    color: #45505b;
+    line-height: 1;
+    margin-right: 20px;
+    transition: 0.35s;
+    /* Add missing 's' to specify transition duration */
+}
+#hero .social-links a:hover {
+    color: #0563bb;
+}
+
+@media (min-width: 992px) {
+    #hero {
+        padding-left: 160px;
+    }
+}
