@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="container">
         <h1>Nobel Ahmad Badhon</h1>
         <p>
-          I'm{" "}
+          I&apos;m{" "}
           <ReactTyped
             strings={[
               "Competitive programmer",
